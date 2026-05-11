@@ -19,8 +19,20 @@ def madlib1():
     food = input("Enter a food: ")
     job = input("Enter a job: ")
     print(f"Once upon a time there was a {animals} named {name}. {name} lived in a {place} and loved to {verb} and eat {food}. One day, {name} got laid off from their job as a {job} and had to find a new one. They found a job at a restaurant and had to wear {clothing} while they worked. One day, they found a {things} in the restaurant and it made them want to quit. But they needed the money, so they stayed and continued to work hard. Eventually, they got promoted and lived happily ever after.")
-    
+
 def madlib2():
+    adjective = input("Enter an adjective: ")
+    noun = input("Enter a noun: ")
+    verb = input("Enter a verb: ")
+    place = input("Enter a place: ")
+    name = input("Enter a name: ")
+    adjective2 = input("Enter another adjective: ")
+    animal = input("Enter an animal: ")
+    food = input("Enter a food: ")
+    print(f"Today I ran into my friend {name} at the {place}. We were both wearing {adjective} clothes and we decided to {verb} together. We had so much fun and we even saw a {adjective2} {animal} eating some {food}. It was a great day!")
+
+    
+    
 
     
 
