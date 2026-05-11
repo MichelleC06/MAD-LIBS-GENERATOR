@@ -28,7 +28,7 @@ def madlib2():
     adjective2 = input("Enter another adjective: ")
     animal = input("Enter an animal: ")
     food = input("Enter a food: ")
-    print(f"Today I ran into my friend {name} at the {place}. We were both wearing {adjective} clothes and we decided to {verb} together. We had so much fun and we even saw a {adjective2} {animal} eating some {food}. It was a great day!")
+    print(f"Today I ran into my friend {name} at the {place}. We were both wearing {adjective} clothes and we decided to {verb} together. We both bought a {noun}, and we had so much fun! We even saw a {adjective2} {animal} eating some {food}. It was a great day!")
 
 def madlib3():   
     color = input("Enter a color: ")
@@ -42,7 +42,7 @@ def madlib3():
     place = input("Enter a place: ")
     emotion = input("Enter an emotion: ")
     time_of_day = input("Enter a time of day: ")
-    print(f"One dark and stormy {time_of_day}, {name} was walking through the {place} on their way home from work. They were feeling {emotion} and wanted to go home and sleep. Suddenly, they heard a loud noise and saw a {monster} coming towards them. They were so scared that they started to {verb} {adverb}. They ran as fast as they could and eventually found a {thing} to hide behind. The {monster} couldn't find them and eventually went away. {name} was so relieved and grateful to be alive. They went home and slept soundly, dreaming of a world without {monster}s.)")
+    print(f"One dark and stormy {time_of_day}, {name} was walking through the {place} on their way home from work. They were feeling {emotion} and wanted to go home and sleep. Suddenly, they heard a loud noise and saw a {color} {monster} coming towards them. They were so scared that they started to {verb} {adverb}. They ran as fast as they could and eventually found a {adjective}{thing} to hide behind. The {monster} couldn't find them and eventually went away. {name} was so relieved and grateful to be alive. They went home, grabbed their {noun} and slept soundly, dreaming of a world without {monster}s.)")
 
 Button(root, text = "Animal's New Job", font = "arial 15", command = madlib1).place(x=100, y=120)
 Button(root, text = "My Day Out", font = "arial 15", command = madlib2).place(x=100, y=170)
