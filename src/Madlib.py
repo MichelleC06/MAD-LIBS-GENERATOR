@@ -42,6 +42,9 @@ def madlib3():
     adjective = input("Enter an adjective: ")
     place = input("Enter a place: ")
     emotion = input("Enter an emotion: ")
-    time of day = input("Enter a time of day: ")
-    print(f"One dark and stormy {time of day}, {name} was walking through the {place} on their way home from work. They were feeling {emotion} and wanted to go home and sleep. Suddenly, they heard a loud noise and saw a {monster} coming towards them. They were so scared that they started to {verb} {adverb}. They ran as fast as they could and eventually found a {thing} to hide behind. The {monster} couldn't find them and eventually went away. {name} was so relieved and grateful to be alive. They went home and slept soundly, dreaming of a world without {monster}s.)")
+    time_of_day = input("Enter a time of day: ")
+    print(f"One dark and stormy {time_of_day}, {name} was walking through the {place} on their way home from work. They were feeling {emotion} and wanted to go home and sleep. Suddenly, they heard a loud noise and saw a {monster} coming towards them. They were so scared that they started to {verb} {adverb}. They ran as fast as they could and eventually found a {thing} to hide behind. The {monster} couldn't find them and eventually went away. {name} was so relieved and grateful to be alive. They went home and slept soundly, dreaming of a world without {monster}s.)")
 
+Button(root, text = "Animal's New Job", font = "arial 15", command = madlib1).place(x=100, y=120)
+Button(root, text = "My Day Out", font = "arial 15", command = madlib2).place(x=100, y=170)
+Button(root, text = "A Scary Encounter", font = "arial 15", command = madlib3).place(x=100, y=220)
