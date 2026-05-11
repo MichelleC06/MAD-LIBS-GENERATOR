@@ -48,3 +48,4 @@ def madlib3():
 Button(root, text = "Animal's New Job", font = "arial 15", command = madlib1).place(x=100, y=120)
 Button(root, text = "My Day Out", font = "arial 15", command = madlib2).place(x=100, y=170)
 Button(root, text = "A Scary Encounter", font = "arial 15", command = madlib3).place(x=100, y=220)
+root.mainloop()
