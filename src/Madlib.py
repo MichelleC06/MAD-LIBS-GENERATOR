@@ -31,11 +31,17 @@ def madlib2():
     food = input("Enter a food: ")
     print(f"Today I ran into my friend {name} at the {place}. We were both wearing {adjective} clothes and we decided to {verb} together. We had so much fun and we even saw a {adjective2} {animal} eating some {food}. It was a great day!")
 
-    
-    
-
-    
-
-
-
+def madlib3():   
+    color = input("Enter a color: ")
+    noun = input("Enter a noun: ")
+    adverb = input("Enter an adverb: ")
+    verb = input("Enter a verb: ")
+    name = input("Enter a name: ")
+    thing = input("Enter a thing: ")
+    monster = input("Enter a monster: ")
+    adjective = input("Enter an adjective: ")
+    place = input("Enter a place: ")
+    emotion = input("Enter an emotion: ")
+    time of day = input("Enter a time of day: ")
+    print(f"One dark and stormy {time of day}, {name} was walking through the {place} on their way home from work. They were feeling {emotion} and wanted to go home and sleep. Suddenly, they heard a loud noise and saw a {monster} coming towards them. They were so scared that they started to {verb} {adverb}. They ran as fast as they could and eventually found a {thing} to hide behind. The {monster} couldn't find them and eventually went away. {name} was so relieved and grateful to be alive. They went home and slept soundly, dreaming of a world without {monster}s.)")
 
